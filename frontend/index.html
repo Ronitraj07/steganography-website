@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Steganography Tool</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts for a modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Steganography</h1>
+      <p>Hide & reveal secret messages in images</p>
+    </header>
+    
+    <main>
+      <div class="input-section">
+        <label class="custom-file" for="imageInput">
+          <input type="file" id="imageInput" accept="image/*" />
+          <span>Choose Image</span>
+        </label>
+        <input type="text" id="messageInput" placeholder="Enter secret message" />
+        <div class="btn-group">
+          <button id="encodeBtn">Encode</button>
+          <button id="decodeBtn">Decode</button>
+        </div>
+      </div>
+      <div class="output-section">
+        <canvas id="resultCanvas"></canvas>
+      </div>
+    </main>
+    
+    <footer>
+      <p>Created by Ronitraj</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

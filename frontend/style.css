@@ -1,0 +1,120 @@
+/* Reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Wrapper */
+body {
+  background: #f5f5f5;
+  font-family: 'Roboto Mono', monospace;
+  color: #333;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1em;
+  color: #666;
+}
+
+/* Main Section */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-section {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.custom-file {
+  display: inline-block;
+  background: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background 0.3s ease;
+}
+
+.custom-file:hover {
+  background: #2980b9;
+}
+
+.custom-file input[type="file"] {
+  display: none;
+}
+
+.input-section input[type="text"] {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-group {
+  margin: 10px;
+}
+
+.btn-group button {
+  padding: 10px 25px;
+  border: none;
+  background: #2ecc71;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 1em;
+  transition: background 0.3s ease;
+}
+
+.btn-group button:hover {
+  background: #27ae60;
+}
+
+/* Output Section */
+.output-section {
+  width: 100%;
+  text-align: center;
+}
+
+canvas {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #999;
+  font-size: 0.9em;
+}

@@ -1,0 +1,11 @@
+{
+    "cSpell.words": [
+        "fromarray",
+        "jsonify",
+        "pycache",
+        "stegano",
+        "Steganography",
+        "venv"
+    ],
+    "python.REPL.enableREPLSmartSend": false
+}

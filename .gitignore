@@ -1,0 +1,9 @@
+# Node.js
+/backend/node_modules/
+
+# Python
+/stegano_engine/venv/
+/stegano_engine/__pycache__/
+
+# OS files
+.DS_Store
